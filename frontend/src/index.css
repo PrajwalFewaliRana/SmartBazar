@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+/* .dark {
+  --background: oklch(0.16 0 0);
+  --primary: oklch(0.97 0 0);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
+@theme inline {
+  --color-primary: var(--primary);
+  --color-background: var(--background);
+  --text-body: 1rem;
+  --text-body--line-height: 1.65;
+  --radius-card: 1rem;
+}
+
+:root {
+  --primary: oklch(0.55 0.11 45);
+  --background: oklch(0.985 0.008 85);
+} */
+
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
